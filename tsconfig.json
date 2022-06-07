@@ -1,0 +1,125 @@
+{
+  "compilerOptions": {
+    "outDir": "build/dist",
+    "module": "esnext",
+    "target": "esnext",
+    "lib": ["esnext", "dom"],
+    "sourceMap": true,
+    "baseUrl": ".",
+    "jsx": "preserve",
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "experimentalDecorators": true,
+    "strict": true,
+    "paths": {
+      "@/*": ["./src/*"],
+      "@@/*": ["./src/.umi/*"],
+      "@ty-swap-pages/utils": ["./src/packages/utils/src/index"],
+      "@ty-swap-pages/base": ["./src/packages/base/src/index"],
+      "@ty-swap-pages/provider": ["./src/packages/provider/src/index"],
+      "@ty-swap-pages/io-component": ["./src/packages/io-component/src/index"],
+      "@ty-swap-pages/services": ["./src/packages/services/src/index"],
+      "@ty-swap-pages/fields": ["./src/packages/fields/src/index"],
+      "@ty-swap-pages/page-swap-booking": ["./src/packages/page-swap-booking/src/index"],
+      "@ty-swap-pages/page-swap-position-detail": [
+        "./src/packages/page-swap-position-detail/src/index"
+      ],
+      "@ty-swap-pages/core": ["./src/packages/core/src/index"],
+      "@ty-swap-pages/services-swap": ["./src/packages/services-swap/src/index"],
+      "@ty-swap-pages/page-source-manage": ["./src/packages/page-source-manage/src/index"],
+      "@ty-swap-pages/page-one-click-execution": [
+        "./src/packages/page-one-click-execution/src/index"
+      ],
+      "@ty-swap-pages/containers": ["./src/packages/containers/src/index"],
+      "@ty-swap-pages/design-operations": ["./src/packages/design-operations/src/index"],
+      "@ty-swap-pages/services-option": ["./src/packages/services-option/src/index"],
+      "@ty-swap-pages/global": ["./src/packages/global/src/index"],
+      "@ty-swap-pages/page-frame-valuation-report": [
+        "./src/packages/page-frame-valuation-report/src/index"
+      ],
+      "@ty-swap-pages/page-swap-contract-detail-report": [
+        "./src/packages/page-swap-contract-detail-report/src/index"
+      ],
+      "@ty-swap-pages/page-pnl-reports": ["./src/packages/page-pnl-reports/src/index"],
+      "@ty-swap-pages/page-risk-reports": ["./src/packages/page-risk-reports/src/index"],
+      "@ty-swap-pages/page-swap-customer-valuation-report": [
+        "./src/packages/page-swap-customer-valuation-report/src/index"
+      ],
+      "@ty-swap-pages/page-swap-subject-valuation-report": [
+        "./src/packages/page-swap-subject-valuation-report/src/index"
+      ],
+      "@ty-swap-pages/page-swap-dividend-management": [
+        "./src/packages/page-swap-dividend-management/src/index"
+      ],
+      "@ty-swap-pages/page-swap-margin-manage": [
+        "./src/packages/page-swap-margin-manage/src/index"
+      ],
+      "@ty-swap-pages/page-system-settings": ["./src/packages/page-system-settings/src/index"],
+      "@ty-swap-pages/page-valuation-management": [
+        "./src/packages/page-valuation-management/src/index"
+      ],
+      "@ty-swap-pages/page-water-recording-management": [
+        "./src/packages/page-water-recording-management/src/index"
+      ],
+      "@ty-swap-pages/page-swap-submitted": ["./src/packages/page-swap-submitted/src/index"],
+      "@ty-swap-pages/page-life-cycle-overview": [
+        "./src/packages/page-life-cycle-overview/src/index"
+      ],
+      "@ty-swap-pages/page-event-reminder": ["./src/packages/page-event-reminder/src/index"],
+      "@ty-swap-pages/page-inchange-in-real-time": [
+        "./src/packages/page-inchange-in-real-time/src/index"
+      ],
+      "@ty-swap-pages/page-risk-control-quota-allocation": [
+        "./src/packages/page-risk-control-quota-allocation/src/index"
+      ],
+      "@ty-swap-pages/page-custom-fields": ["./src/packages/page-custom-fields/src/index"],
+      "@ty-swap-pages/page-swap-position-list": [
+        "./src/packages/page-swap-position-list/src/index"
+      ],
+      "@ty-swap-pages/page-swap-contract-source-manage": [
+        "./src/packages/page-swap-contract-source-manage/src/index"
+      ],
+      "@ty-swap-pages/page-sales-manage": ["./src/packages/page-sales-manage/src/index"],
+      "@ty-swap-pages/page-party-review-records": [
+        "./src/packages/page-party-review-records/src/index"
+      ],
+      "@ty-swap-pages/page-account-capital-allocation": [
+        "./src/packages/page-account-capital-allocation/src/index"
+      ],
+      "@ty-swap-pages/page-swap-general-contract-create": [
+        "./src/packages/page-swap-general-contract-create/src/index"
+      ],
+      "@ty-swap-pages/page-swap-frame-contract-create": [
+        "./src/packages/page-swap-frame-contract-create/src/index"
+      ],
+      "@ty-swap-pages/page-field-precision-manage": [
+        "./src/packages/page-field-precision-manage/src/index"
+      ],
+      "@ty-swap-pages/helpers": ["./src/packages/helpers/src/index"]
+    }
+  },
+  "include": [
+    "mock/**/*",
+    "src/**/*",
+    "playwright.config.ts",
+    "tests/**/*",
+    "test/**/*",
+    "__test__/**/*",
+    "typings/**/*",
+    "config/**/*",
+    ".eslintrc.js",
+    ".stylelintrc.js",
+    ".prettierrc.js",
+    "jest.config.js",
+    "mock/*",
+    "typings.d.ts"
+  ],
+  "exclude": ["node_modules", "build", "dist", "scripts", "src/.umi/*", "webpack", "jest"]
+}

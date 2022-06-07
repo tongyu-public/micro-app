@@ -1,0 +1,27 @@
+{
+  "requestLibPath": "import request from '@ty-one-start/request';",
+  "hosts": {
+    "test": "10.1.6.69",
+    "dev": "10.1.6.80",
+    "dev2": "10.1.6.84",
+    "dev3": "10.1.5.159"
+  },
+  "services": {
+    "/swap-service": {
+      "name": "swap",
+      "description": "互换服务",
+      "swaggerPort": 16020,
+      "skip": false
+    },
+    "/option-service": {
+      "apiPrefix": "/bct",
+      "name": "option",
+      "description": "期权服务",
+      "swaggerPort": 16000,
+      "skip": false
+    }
+  },
+  "proxy": {
+    "applyHost": "dev2"
+  }
+}
