@@ -12,7 +12,7 @@ if (!fs.existsSync(indexHTMLPath)) {
 
 const htmlStr = fs.readFileSync(indexHTMLPath, 'utf8');
 
-const slavePublicPath = 'swap-admin';
+const slavePublicPath = 'receipt-admin';
 
 const next = htmlStr
   .replace(/<script src="\//g, `<script src="/${slavePublicPath}/`)

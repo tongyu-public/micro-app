@@ -1,5 +1,5 @@
 {
-  "name": "liquidation-admin",
+  "name": "receipt-admin",
   "private": true,
   "scripts": {
     "clean:link": "yarn unlink @ty-one-start/one-start && yarn unlink @ty-one-start/request && yarn install --force --registry=http://npm.tongyu.tech",
