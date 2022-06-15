@@ -35,7 +35,8 @@
     "start:test": "cross-env APP_ENV=dev UMI_ENV=dev MOCK=none umi dev",
     "test": "umi test",
     "test:component": "umi test ./src/components",
-    "test:e2e": "node ./tests/run-tests.js"
+    "test:e2e": "node ./tests/run-tests.js",
+    "tsc": "tsc --noEmit"
   },
   "dependencies": {
     "@ant-design/icons": "^4.4.0",
